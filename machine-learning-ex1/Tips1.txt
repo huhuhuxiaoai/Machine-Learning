@@ -1,0 +1,7 @@
+week 2
+第一列是城市人口 第二列是对应的收益 有负值，通过以前的数据预测收益
+X = data(:, 1); y = data(:, 2); % X 取data第一列数据并变成列向量
+                                % y 取data第二列数据并变成列向量A(:);
+梯度下降算法
+X = [ones(m, 1), data(:,1)]; % Add a column of ones to x 增加一列theta0-x1							
+								
